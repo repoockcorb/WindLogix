@@ -1,7 +1,7 @@
 # WindLogix 🍃
 WindLogix is a Graphical user interface written in python designed for measuring upto 3 [WindSoinic 75](https://gillinstruments.com.au/product/windsonic-75/) Anemometers from Gill Instruments. It allows the user to connect using an RS-232 serial to USB adaptor. The interface displays the live readings of the windspeed in m/s and can record the readings which are then logged to a CSV file within a folder called '_WindLogix Logs_' located in the `Windlogix.exe` root directory.
 
-![Alt Text](WindLogix_GUI.png)
+![Alt Text](images/WindLogix_GUI.png)
 
 For more information see the help section on the interface.
 
