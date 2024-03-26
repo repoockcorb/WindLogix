@@ -1,0 +1,13 @@
+# python version 3.11.2
+# pip version 21.3.1
+customtkinter==5.2.2
+darkdetect==0.8.0
+et-xmlfile==1.1.0
+future==1.0.0
+iso8601==2.1.0
+openpyxl==3.1.2
+packaging==24.0
+pillow==10.2.0
+pyserial==3.5
+PyYAML==6.0.1
+pyinstaller==5.13.2
