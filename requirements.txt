@@ -11,3 +11,5 @@ pillow==10.2.0
 pyserial==3.5
 PyYAML==6.0.1
 pyinstaller==5.13.2
+CTkMessagebox==2.5
+pywinstyles==1.7

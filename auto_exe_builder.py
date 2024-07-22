@@ -7,7 +7,7 @@ print(cur_dir)
 
 pyinstaller_command = [
     "pyinstaller",
-    "Anemometer_Interface.py",
+    "windlogix.py",
     "--name", "WindLogix",
     # "--onedir",
     "--onefile",
@@ -16,7 +16,8 @@ pyinstaller_command = [
     "--paths", cur_dir+"/.venv/Lib/site-packages",
     "--add-data", cur_dir+"/images/favicon.ico;./images",
     "--add-data", cur_dir+"/images/windlogix.png;./images",
-    "--add-data", cur_dir+"/images/windlogix_white.png;./images"
+    "--add-data", cur_dir+"/images/windlogix_white.png;./images",
+    "--add-data", cur_dir+"/images/refresh_arrow_white.png;./images",
 ]
 
 subprocess.call(pyinstaller_command)
